@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Spline+Sans:wght@300..700&display=swap');
+
+body {
+    font-family: "spline sans", sans-serif;
+    color: #777;
+    line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    color: #222;   
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+}
+a:hover {
+    color: #f58d17;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+}
+
+/* Btn */
+.btn {
+    border-radius: 0;
+    padding: 14px 38px;
+}
+.btn-brand {
+    color: #fff;
+    font-weight: 500;
+    border-color: #f58d17;
+    background-color: #f58d17;
+}
+.btn-brand:hover {
+    border-color: #ca7310;
+    background-color: #ca7310;
+    color: white;
+}
+.bg-cover {
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+/* Slider */
+.slide-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5)), url(Images/back\ 1.jpg);
+}
+.slide-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5)), url(Images/back\ 2.jpg);
+}
+.slide-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5)), url(Images/back\ 3.jpg);
+}
+#carouselExample h6::after,
+#carouselExample h6::before {
+    content: " ";
+    width: 40px;
+    height: 4px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0,0,0,0.6);
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+/* About */
+#about .divider {
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: #f58d17;
+}
+/* Intro Text */
+.intro-text {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.intro-text p {
+    max-width: 500px;
+    margin: 16px auto 0 auto; 
+}
+.custom {
+  color: #f58d17;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.custom-tabs {
+ background-color: #f58d17;
+ color: #fff;
+ border-color: #f58d17;
+}
+.custom-tabs .nav link {
+    color: #f58d17;
+    border: #ca7310;
+    transition: 0.3s;
+}
+.custom-tabs .nav-link:hover {
+    background-color: #f58d17;
+    color: #fff;
+}
+.badge-price {
+   background-color: #f58d17;
+   color: #fff;
+   padding: 5px 10px;
+   border-radius: 20px;
+   font-size: 0.9rem;
+   font-weight: bold;
+   float: right;
+}
+.badge-price1 {
+   background-color: #f58d17;
+   color: #fff;
+   padding: 5px 10px;
+   border-radius: 20px;
+   font-size: 0.9rem;
+   font-weight: bold;
+   float: right;
+}
+.badge-price2 {
+     background-color: #f58d17;
+   color: #fff;
+   padding: 5px 10px;
+   border-radius: 20px;
+   font-size: 0.9rem;
+   font-weight: bold;
+   float: right;
+}
+.badge-price3 {
+     background-color: #f58d17;
+   color: #fff;
+   padding: 5px 10px;
+   border-radius: 20px;
+   font-size: 0.9rem;
+   font-weight: bold;
+   float: right;
+}
+.badge-price4 {
+     background-color: #f58d17;
+   color: #fff;
+   padding: 5px 10px;
+   border-radius: 20px;
+   font-size: 0.9rem;
+   font-weight: bold;
+   float: right;
+}
+.badge-price5 {
+     background-color: #f58d17;
+   color: #fff;
+   padding: 5px 10px;
+   border-radius: 20px;
+   font-size: 0.9rem;
+   font-weight: bold;
+   float: right;
+}
+/* styles.css */
+
+/* Orange gradient background */
+#catering-events {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b); /* warm orange gradient */
+  color: #fff;
+  padding: 60px 0;
+  margin-top: 60px; /* add space above to separate from previous section */
+}
+
+/* Headings and intro paragraph */
+#catering-events h1,
+#catering-events p.lead {
+  color: #fff; /* white text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#catering-events p.lead {
+  font-size: 1.25rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Accordion button default (collapsed) */
+.accordion-button {
+  color: #3b1e00; /* dark brown/orange for contrast */
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: none;
+  box-shadow: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Accordion button hover when collapsed */
+.accordion-button:hover {
+  color: #fff;
+  background-color: rgba(255, 126, 95, 0.8);
+}
+
+/* Accordion button expanded (active) */
+.accordion-button:not(.collapsed) {
+  background-color: #fff;
+  color: #ff7e5f; /* orange text on white background */
+}
+
+/* Accordion button focus */
+.accordion-button:focus {
+  box-shadow: 0 0 0 3px rgba(255, 126, 95, 0.7);
+}
+
+/* Accordion body styling */
+.accordion-body {
+  background-color: rgba(0, 0, 0, 0.25); /* semi-transparent dark background */
+  border-radius: 0 0 12px 12px;
+  color: #fff;
+  padding: 1rem 1.5rem;
+}
+
+/* Accordion body text */
+.accordion-body p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/* Images inside accordion */
+.accordion-body img {
+  width: 150px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+  margin-right: 1.5rem;
+}
+
+/* Slight zoom on image hover */
+.accordion-body img:hover {
+  transform: scale(1.05);
+}
+
+/* Flex container inside accordion body for layout */
+.accordion-body.d-flex {
+  align-items: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .accordion-body {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .accordion-body img {
+    margin: 0 0 1rem 0 !important;
+  }
+}
+/* Reservation */
+#reservation {
+  background: #f8f9fa;
+}
+
+#reservation h1 {
+  color: #333;
+}
+
+#reservation .btn-brand {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+}
+
+#reservation .btn-brand:hover {
+  background-color: #e65c00;
+}
+
+
+/* Insta Posts */
+.insta-post {
+  position: relative;
+  overflow: hidden;
+}
+
+.insta-post img {
+  width: 100%;
+  transition: all 0.4s ease;
+}
+
+.insta-post:hover img {
+  transform: scale(1.2);
+}
+/* Footer */
+footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://www.dosafactorymenu.com/blog-admin/images/indian-food-items-apt-for-everyone041641.jpeg);
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+.footer-top {
+  margin-bottom: 30px;
+}
+footer p, 
+footer a{
+     color: rgba(255, 255, 255, 0.75);
+}
+footer .social-links a {
+  font-weight: normal;
+  font-size: 24px;
+  margin-right: 10px;
+}
+footer img {
+  max-width: 175px;
+}
+.footer-bottom {
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
